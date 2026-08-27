@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1e40af">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Smart Vault">
+    <meta name="description" content="Ψηφιακό θησαυροφυλάκιο εγγράφων — GT Documents v3.6">
+    <title>Smart Vault v3.6 — GT Documents</title>
+    <style id="tw-prod">*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.bottom-0{bottom:0}.bottom-4{bottom:1rem}.left-0{left:0}.left-3{left:.75rem}.left-4{left:1rem}.right-0{right:0}.right-2{right:.5rem}.right-4{right:1rem}.top-0{top:0}.top-1{top:.25rem}.top-2{top:.5rem}.top-3{top:.75rem}.top-4{top:1rem}.z-10{z-index:10}.z-50{z-index:50}.-mx-2{margin-left:-.5rem;margin-right:-.5rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-0\.5{margin-bottom:.125rem}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-8{margin-bottom:2rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-\[3\/4\]{aspect-ratio:3/4}.aspect-video{aspect-ratio:16/9}.h-10{height:2.5rem}.h-11{height:2.75rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-20{height:5rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-9{height:2.25rem}.h-full{height:100%}.min-h-5{min-height:1.25rem}.w-10{width:2.5rem}.w-11{width:2.75rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-16{width:4rem}.w-20{width:5rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-7{width:1.75rem}.w-9{width:2.25rem}.w-full{width:100%}.min-w-0{min-width:0}.max-w-xs{max-width:20rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.translate-x-1{--tw-translate-x:0.25rem}.translate-x-1,.translate-x-6{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-6{--tw-translate-x:1.5rem}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.-space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(-.25rem*var(--tw-space-x-reverse));margin-left:calc(-.25rem*(1 - var(--tw-space-x-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem*var(--tw-space-y-reverse))}.divide-x>:not([hidden])~:not([hidden]){--tw-divide-x-reverse:0;border-right-width:calc(1px*var(--tw-divide-x-reverse));border-left-width:calc(1px*(1 - var(--tw-divide-x-reverse)))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.break-all{word-break:break-all}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-bl-xl{border-bottom-left-radius:.75rem}.rounded-br-xl{border-bottom-right-radius:.75rem}.rounded-tl-xl{border-top-left-radius:.75rem}.rounded-tr-xl{border-top-right-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-b{border-bottom-width:1px}.border-b-4{border-bottom-width:4px}.border-l-4{border-left-width:4px}.border-r-4{border-right-width:4px}.border-t{border-top-width:1px}.border-t-4{border-top-width:4px}.border-dashed{border-style:dashed}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77/var(--tw-border-opacity,1))}.border-emerald-400{--tw-border-opacity:1;border-color:rgb(52 211 153/var(--tw-border-opacity,1))}.border-red-400{--tw-border-opacity:1;border-color:rgb(248 113 113/var(--tw-border-opacity,1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity,1))}.border-white\/15{border-color:hsla(0,0%,100%,.15)}.border-white\/20{border-color:hsla(0,0%,100%,.2)}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11/var(--tw-bg-opacity,1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity,1))}.bg-black\/10{background-color:rgba(0,0,0,.1)}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129/var(--tw-bg-opacity,1))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.bg-slate-500{--tw-bg-opacity:1;background-color:rgb(100 116 139/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/10{background-color:hsla(0,0%,100%,.1)}.bg-white\/15{background-color:hsla(0,0%,100%,.15)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.from-zinc-800{--tw-gradient-from:#27272a var(--tw-gradient-from-position);--tw-gradient-to:rgba(39,39,42,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.to-zinc-900{--tw-gradient-to:#18181b var(--tw-gradient-to-position)}.p-1\.5{padding:.375rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-28{padding-bottom:7rem}.pb-4{padding-bottom:1rem}.pl-10{padding-left:2.5rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-wide{letter-spacing:.025em}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity,1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity,1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity,1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153/var(--tw-text-opacity,1))}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129/var(--tw-text-opacity,1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity,1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.text-white\/20{color:hsla(0,0%,100%,.2)}.text-white\/25{color:hsla(0,0%,100%,.25)}.text-white\/50{color:hsla(0,0%,100%,.5)}.text-white\/60{color:hsla(0,0%,100%,.6)}.text-white\/80{color:hsla(0,0%,100%,.8)}.opacity-30{opacity:.3}.opacity-40{opacity:.4}.opacity-50{opacity:.5}.opacity-60{opacity:.6}.opacity-70{opacity:.7}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.shadow-sm,.shadow-xl{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color)}.outline-none{outline:2px solid transparent;outline-offset:2px}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.hover\:bg-red-500\/10:hover{background-color:rgba(239,68,68,.1)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:opacity-70:hover{opacity:.7}.active\:scale-90:active{--tw-scale-x:.9;--tw-scale-y:.9}.active\:scale-90:active,.active\:scale-95:active{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95}.active\:opacity-70:active{opacity:.7}</style>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family:'Inter',sans-serif; -webkit-tap-highlight-color:transparent; touch-action:manipulation; box-sizing:border-box; }
+        body { background:#0f172a; display:flex; justify-content:center; align-items:center; min-height:100vh; margin:0; }
+        .phone-frame { width:100%; max-width:375px; height:100vh; max-height:812px; background:#111; padding:12px; box-shadow:0 30px 60px -15px rgba(0,0,0,.7); }
+        @media(min-width:390px){ .phone-frame{ height:812px; border-radius:44px; } }
+        .phone-screen { width:100%; height:100%; overflow:hidden; position:relative; }
+        @media(min-width:390px){ .phone-screen{ border-radius:32px; } }
+        .scrollbar-hide::-webkit-scrollbar{display:none}
+        .scrollbar-hide{-ms-overflow-style:none;scrollbar-width:none}
+        @keyframes scan-move{0%{top:0;opacity:0}10%{opacity:1}90%{opacity:1}100%{top:100%;opacity:0}}
+        .scan-line{position:absolute;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,#22c55e,transparent);box-shadow:0 0 10px #22c55e;animation:scan-move 2s linear infinite}
+        .search-highlight{background:rgba(251,191,36,.3);border-radius:2px}
+        @keyframes toast-in{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+        .toast-enter{animation:toast-in .3s ease}
+        .blur-sensitive{filter:blur(4px);user-select:none}
+        .lock-overlay{position:absolute;inset:0;background:rgba(0,0,0,.96);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:100;backdrop-filter:blur(12px)}
+        .pin-input{width:46px;height:46px;text-align:center;font-size:22px;border:2px solid rgba(255,255,255,.25);border-radius:12px;margin:0 3px;background:rgba(255,255,255,.08);color:white;outline:none;-webkit-appearance:none;appearance:none}
+        .pin-input:focus{border-color:#3b82f6;background:rgba(59,130,246,.15)}
+        .min-touch-target{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+        .card-item{transition:transform .15s ease}
+        .card-item:active{transform:scale(.98)}
+        input,select,textarea{font-size:16px;-webkit-text-size-adjust:none}
+        @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+        .fade-in{animation:fadeIn .2s ease}
+        .category-btn.active{color:white!important}
+        .drag-handle{cursor:grab;touch-action:none}
+        .drag-handle:active{cursor:grabbing}
+        .sortable-ghost{opacity:.35;background:rgba(59,130,246,.12);border-radius:12px}
+        .sortable-drag{opacity:.85;box-shadow:0 12px 28px rgba(0,0,0,.25);border-radius:12px}
+        /* Glass */
+        .glass-mode{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)!important}
+        .glass-card{background:rgba(255,255,255,.1)!important;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18)!important;box-shadow:0 8px 32px rgba(0,0,0,.2)}
+        /* Modal */
+        .modal-overlay{position:absolute;inset:0;background:rgba(0,0,0,.7);display:flex;align-items:flex-end;justify-content:center;z-index:200;backdrop-filter:blur(4px)}
+        @keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+        .modal-sheet{animation:slideUp .3s ease;width:100%;max-height:90%;overflow-y:auto;border-radius:24px 24px 0 0}
+    </style>
+</head>
+<body>
+<div class="phone-frame">
+    <div class="phone-screen" id="screen">
+        <div id="app" style="width:100%;height:100%;overflow:hidden;position:relative;display:flex;flex-direction:column"></div>
+    </div>
+</div>
+<script>
+// ═══════════════════════════════════════
+// SMART VAULT v3.6
+// © ΤΑΧΜΑΖΙΔΗΣ ΓΙΩΡΓΟΣ 2026
+// Fixes v3.6:
+//  [C1] Contrast: dark themes με σωστά card backgrounds
+//  [C2] OLED Neon: νέο theme με neon colors ορατά
+//  [C3] Themes list: κάθε card δείχνει σωστά χρώματα
+//  [I1] Import JSON/CSV από αρχείο
+//  [U1] Bottom buttons: icon-only (no text overflow)
+//  [U2] Επιπλέον Πεδία: πάντα κάτω στο edit
+//  [U3] About: modal sheet αντί για alert()
+//  [U4] Εισαγωγή δεδομένων στο Settings
+// + Όλα τα fixes από v3.5
+// ═══════════════════════════════════════
+
+// ── SECURITY ──
+const SecurityUtils = {
+    escapeHtml(s){ if(!s)return''; const d=document.createElement('div'); d.textContent=String(s); return d.innerHTML; },
+    escapeRegex(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); },
+    async hashPin(pin){
+        try{
+            const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(pin));
+            return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+        }catch(e){ return btoa(unescape(encodeURIComponent(pin))); }
+    },
+    async verifyPin(pin,hash){ return(await this.hashPin(pin))===hash; },
+    generateSalt(){ return Array.from(crypto.getRandomValues(new Uint8Array(16))).map(b=>b.toString(16).padStart(2,'0')).join(''); }
+};
+
+// ── STORAGE ── [F1 FIX: .encoded not .data]
+const StorageManager = {
+    KEY:'smartvault_v36',
+    saveTimeout:null,
+    async save(data){
+        if(this.saveTimeout)clearTimeout(this.saveTimeout);
+        return new Promise(resolve=>{
+            this.saveTimeout=setTimeout(async()=>{
+                try{ localStorage.setItem(this.KEY,JSON.stringify(await this.encryptData(data))); resolve(true); }
+                catch(e){ resolve(false); }
+            },600);
+        });
+    },
+    async load(){
+        try{ const s=localStorage.getItem(this.KEY); if(!s)return null; return await this.decryptData(JSON.parse(s)); }
+        catch(e){ return null; }
+    },
+    async encryptData(data){ return{ encoded:btoa(unescape(encodeURIComponent(JSON.stringify(data)))), version:1 }; },
+    async decryptData(enc){
+        try{ return JSON.parse(decodeURIComponent(escape(atob(enc.encoded)))); } // [F1] enc.encoded
+        catch(e){ return null; }
+    },
+    clear(){ localStorage.removeItem(this.KEY); }
+};
+
+// ── THEMES ── [C1] Dark card backgrounds για κάθε dark theme
+const THEMES = [
+    { id:'ocean',      label:'Ocean Blue',       primary:'#1e40af', bg:'#eff6ff', text:'#1e293b', accent:'#3b82f6',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'light',      label:'Light',            primary:'#2563eb', bg:'#f8fafc', text:'#1e293b', accent:'#3b82f6',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'neon-green', label:'Dark Neon Green',  primary:'#10b981', bg:'#022c22', text:'#ecfdf5', accent:'#34d399',  cardBg:'#053d2d', cardText:'#ecfdf5' },
+    { id:'gold',       label:'Dark Gold',        primary:'#f59e0b', bg:'#3b1500', text:'#fffbeb', accent:'#fbbf24',  cardBg:'#5c2100', cardText:'#fffbeb' },
+    { id:'violet',     label:'Dark Violet',      primary:'#a78bfa', bg:'#1e0a45', text:'#ede9fe', accent:'#c4b5fd',  cardBg:'#2e1065', cardText:'#ede9fe' },
+    { id:'forest',     label:'Forest Green',     primary:'#15803d', bg:'#f0fdf4', text:'#1e293b', accent:'#22c55e',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'sunset',     label:'Sunset Orange',    primary:'#c2410c', bg:'#fff7ed', text:'#1e293b', accent:'#f97316',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'slate',      label:'Slate Dark',       primary:'#94a3b8', bg:'#0f172a', text:'#f1f5f9', accent:'#cbd5e1',  cardBg:'#1e293b', cardText:'#f1f5f9' },
+    { id:'berry',      label:'Berry Purple',     primary:'#7c3aed', bg:'#f5f3ff', text:'#1e293b', accent:'#a78bfa',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'rose',       label:'Rose Gold',        primary:'#be185d', bg:'#fff1f2', text:'#1e293b', accent:'#f43f5e',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'teal',       label:'Teal Wave',        primary:'#0f766e', bg:'#f0fdfa', text:'#1e293b', accent:'#14b8a6',  cardBg:'#ffffff', cardText:'#1e293b' },
+    { id:'glass-dark', label:'✨ Glass Dark',    primary:'#a78bfa', bg:'glass',   text:'#f5f3ff', accent:'#c4b5fd',  cardBg:'rgba(255,255,255,0.1)', cardText:'#f5f3ff', glass:true },
+    { id:'oled-neon',  label:'🔥 OLED Neon',    primary:'#00e5ff', bg:'#000000', text:'#ffffff',  accent:'#ff00e5',  cardBg:'#0a0a0a', cardText:'#ffffff', oled:true },
+];
+
+// ── STATE ──
+const DEFAULT_CARDS = [
+    {
+        id: 1,
+        name: 'Τα Έγγραφά Μου',
+        fields: [
+            { id: 'f1', label: 'ΑΔΤ',              value: '', category: 'Προσωπικά', type: 'text'  },
+            { id: 'f2', label: 'ΑΦΜ',              value: '', category: 'Προσωπικά', type: 'text'  },
+            { id: 'f3', label: 'ΑΜΚΑ',             value: '', category: 'Υγεία',     type: 'text'  },
+            { id: 'f4', label: 'ΑΜΑ',              value: '', category: 'Υγεία',     type: 'text'  },
+            { id: 'p1', label: 'Κινητό Προσωπικό', value: '', category: 'Προσωπικά', type: 'phone' },
+            { id: 'f5', label: 'IBAN',             value: '', category: 'Τράπεζα',   type: 'iban'  },
+        ]
+    }
+];
+
+let state = {
+    currentView:'home', themeId:'ocean',
+    savedPinHash:null, pinSalt:null, biometricEnabled:false,
+    searchQuery:'', activeCategory:'Όλα',
+    cards: JSON.parse(JSON.stringify(DEFAULT_CARDS)),
+    editingCard:null, selectedCard:null,
+    revealedFields: new Set(),
+    selectedFields: new Set(),
+    toast:null, isLocked:false, failedAttempts:0, lockedUntil:null,
+    scanTargetField:null, cameraPreview:false,
+    showAboutModal:false,
+};
+
+let renderPending=false, navHistory=['home'], sortableInstance=null;
+
+// ── HELPERS ──
+const getTheme = ()=>THEMES.find(t=>t.id===state.themeId)||THEMES[0];
+const T  = ()=>getTheme();
+const isDark = (t)=>['neon-green','gold','violet','slate','glass-dark','oled-neon'].includes(t.id);
+const CB = (t)=>t.cardBg||'white';
+const CT = (t)=>t.cardText||t.text;
+const BORD = (t)=>t.oled?'rgba(255,255,255,0.1)':t.glass?'rgba(255,255,255,0.2)':isDark(t)?'rgba(255,255,255,0.12)':'#e2e8f0';
+
+const formatIBAN  = s=>{ if(!s)return''; return s.replace(/\s/g,'').toUpperCase().match(/.{1,4}/g)?.join(' ')||s; };
+const formatPhone = s=>{ if(!s)return''; const c=s.replace(/\s/g,''); return c.length===10?c.replace(/(\d{3})(\d{3})(\d{4})/,'$1 $2 $3'):c; };
+const maskVal     = v=>{ if(!v||v.length<8)return v; return v.slice(0,4)+'••••••••••••'+v.slice(-4); };
+const genId       = ()=>`${Date.now()}_${Math.random().toString(36).substr(2,9)}`;
+const debounce    = (fn,ms)=>{ let t; return(...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a),ms); }; };
+
+const showToast=(msg,type='success',dur=2200)=>{
+    state.toast={msg,type};
+    requestAnimationFrame(render);
+    setTimeout(()=>{ state.toast=null; requestAnimationFrame(render); },dur);
+};
+
+// ── NAVIGATION ──
+const navigate=(view,params={},addHist=true)=>{
+    state.currentView=view;
+    if(view!=='search') state.searchQuery='';
+    if(view!=='card') state.selectedFields.clear();
+    if(params.cardId!=null) state.selectedCard=params.cardId;
+    if(addHist) navHistory.push(view);
+    requestAnimationFrame(render);
+};
+const goBack=()=>{
+    if(navHistory.length>1){ navHistory.pop(); state.currentView=navHistory[navHistory.length-1]; requestAnimationFrame(render); }
+    else navigate('home',{},false);
+};
+
+// ── LOCK ── [F2: sets currentView='lock']
+const checkLockStatus=()=>{
+    if(state.lockedUntil&&Date.now()<state.lockedUntil)
+        return{locked:true,remaining:Math.ceil((state.lockedUntil-Date.now())/1000)};
+    return{locked:false};
+};
+const attemptUnlock=async(pin)=>{
+    const ls=checkLockStatus();
+    if(ls.locked){showToast(`Δοκιμάστε σε ${ls.remaining}s`,'error');return false;}
+    if(await SecurityUtils.verifyPin(pin,state.savedPinHash)){
+        state.failedAttempts=0; state.isLocked=false; requestAnimationFrame(render); return true;
+    }
+    state.failedAttempts++;
+    if(state.failedAttempts>=5){ state.lockedUntil=Date.now()+30000; showToast('Κλείδωμα 30 δευτερόλεπτα','error'); }
+    else showToast(`Λάθος PIN. Απομένουν ${5-state.failedAttempts}`,'error');
+    requestAnimationFrame(render); return false;
+};
+const lockApp=()=>{
+    if(state.savedPinHash){ state.isLocked=true; state.currentView='lock'; requestAnimationFrame(render); }
+    else showToast('Ορίστε PIN πρώτα από Ρυθμίσεις → Ασφάλεια','error',3000);
+};
+let inactivityTimer;
+const resetInactivityTimer=()=>{
+    clearTimeout(inactivityTimer);
+    if(state.savedPinHash&&!state.isLocked) inactivityTimer=setTimeout(lockApp,2*60*1000);
+};
+
+// ── PERSISTENCE ──
+const saveToStorage=debounce(async()=>{
+    await StorageManager.save({ cards:state.cards, themeId:state.themeId,
+        savedPinHash:state.savedPinHash, pinSalt:state.pinSalt,
+        biometricEnabled:state.biometricEnabled, timestamp:Date.now() });
+},1000);
+const loadFromStorage=async()=>{
+    const d=await StorageManager.load();
+    if(d){
+        if(d.cards)       state.cards=d.cards;
+        if(d.themeId)     state.themeId=d.themeId;
+        if(d.savedPinHash)state.savedPinHash=d.savedPinHash;
+        if(d.pinSalt)     state.pinSalt=d.pinSalt;
+        if(d.biometricEnabled!==undefined) state.biometricEnabled=d.biometricEnabled;
+    }
+};
+
+// ── EXPORT / IMPORT ──
+const downloadFile=(name,content,type)=>{
+    const url=URL.createObjectURL(new Blob([content],{type}));
+    const a=Object.assign(document.createElement('a'),{href:url,download:name});
+    document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url);
+};
+
+const exportData=()=>{
+    const fmt=prompt('Μορφή εξαγωγής:\n1 → JSON (πλήρες αντίγραφο)\n2 → CSV (για Excel)','1');
+    if(!fmt||!['1','2'].includes(fmt)){showToast('Ακύρωση','error');return;}
+    const ts=new Date().toISOString().split('T')[0];
+    let fn=prompt('Όνομα αρχείου:',`smartvault_${ts}`);
+    if(!fn?.trim()){showToast('Ακύρωση','error');return;}
+    fn=fn.trim().replace(/[\\/:*?"<>|]/g,'_');
+    if(fmt==='1'){
+        downloadFile(`${fn}.json`,JSON.stringify({version:'3.6',exportedAt:new Date().toISOString(),cards:state.cards},null,2),'application/json');
+        showToast('✅ JSON εξήχθη!');
+    } else {
+        const q=s=>`"${(s||'').replace(/"/g,'""')}"`;
+        const rows=['Ονομα;Πεδιο;Τιμη;Κατηγορια;Τυπος'];
+        state.cards.forEach(c=>{
+            if(!c.fields.length) rows.push(`${q(c.name)};---;---;---;---`);
+            else c.fields.forEach(f=>rows.push(`${q(c.name)};${q(f.label)};${q(f.value)};${q(f.category)};${q(f.type)}`));
+        });
+        downloadFile(`${fn}.csv`,'\uFEFF'+rows.join('\n'),'text/csv;charset=utf-8');
+        showToast('✅ CSV εξήχθη!');
+    }
+};
+
+// [I1] IMPORT JSON/CSV
+const importData=()=>{
+    const input=document.createElement('input');
+    input.type='file'; input.accept='.json,.csv';
+    input.onchange=async(e)=>{
+        const file=e.target.files[0]; if(!file)return;
+        const text=await file.text();
+        try{
+            if(file.name.endsWith('.json')){
+                const data=JSON.parse(text);
+                const imported=data.cards||data; // support both {cards:[]} and direct array
+                if(!Array.isArray(imported)) throw new Error('Μη έγκυρο JSON format');
+                // Merge: add new cards, update existing by name
+                let added=0,updated=0;
+                imported.forEach(ic=>{
+                    const existing=state.cards.find(c=>c.name===ic.name);
+                    if(existing){ existing.fields=ic.fields; updated++; }
+                    else{ const newId=Math.max(0,...state.cards.map(c=>c.id))+1; state.cards.push({...ic,id:newId}); added++; }
+                });
+                showToast(`✅ JSON: +${added} νέες, ${updated} ενημερώθηκαν`);
+            } else if(file.name.endsWith('.csv')){
+                const lines=text.replace(/^\uFEFF/,'').split('\n').filter(l=>l.trim());
+                const dataLines=lines.slice(1); // skip header
+                let added=0;
+                const byName={};
+                dataLines.forEach(line=>{
+                    const cols=line.split(';').map(c=>c.replace(/^"|"$/g,'').replace(/""/g,'"'));
+                    const [name,label,value,category,type]=cols;
+                    if(!name||name==='---')return;
+                    if(!byName[name]) byName[name]=[];
+                    if(label&&label!=='---') byName[name].push({id:genId(),label,value:value||'',category:category||'Άλλο',type:type||'text'});
+                });
+                Object.entries(byName).forEach(([name,fields])=>{
+                    const existing=state.cards.find(c=>c.name===name);
+                    if(existing){ existing.fields=[...existing.fields,...fields]; }
+                    else{ const newId=Math.max(0,...state.cards.map(c=>c.id))+1; state.cards.push({id:newId,name,fields}); added++; }
+                });
+                showToast(`✅ CSV εισήχθη! +${added} νέες καρτέλες`);
+            }
+            saveToStorage(); render();
+        } catch(err){ showToast(`❌ Σφάλμα: ${err.message}`,'error',4000); }
+    };
+    input.click();
+};
+
+// ── CLIPBOARD/SHARE ──
+const copyToClipboard=async(text)=>{
+    try{ await navigator.clipboard.writeText(text); showToast('Αντιγράφηκε!','success',1500); setTimeout(()=>navigator.clipboard.writeText('').catch(()=>{}),30000); }
+    catch{
+        const ta=Object.assign(document.createElement('textarea'),{value:text});
+        Object.assign(ta.style,{position:'fixed',opacity:'0'}); document.body.appendChild(ta); ta.select();
+        try{ document.execCommand('copy'); showToast('Αντιγράφηκε!','success',1500); } catch{ showToast('Αποτυχία','error'); }
+        document.body.removeChild(ta);
+    }
+};
+const shareCard=async()=>{
+    const card=state.cards.find(c=>c.id===state.selectedCard); if(!card)return;
+    const text=`📋 ${card.name}\n\n`+card.fields.map(f=>`${f.label}: ${f.value}`).join('\n');
+    if(navigator.share){ try{ await navigator.share({title:`Smart Vault: ${card.name}`,text}); return; } catch(e){ if(e.name==='AbortError')return; } }
+    await copyToClipboard(text);
+};
+
+// ── EVENTS ──
+const setupEventDelegation=()=>{
+    const app=document.getElementById('app'); if(!app)return;
+    app.addEventListener('click',e=>{
+        const t=e.target.closest('[data-action]'); if(!t)return;
+        e.preventDefault(); e.stopPropagation();
+        const a=t.dataset.action,p=t.dataset;
+        switch(a){
+            case 'navigate':            navigate(p.view,{cardId:p.cardId?parseInt(p.cardId):null}); break;
+            case 'back':                goBack(); break;
+            case 'view-card':           state.activeCategory='Όλα'; navigate('card',{cardId:parseInt(p.cardId)}); break;
+            case 'edit-card':           editCard(parseInt(p.cardId)); break;
+            case 'delete-card':         deleteCard(parseInt(p.cardId)); break;
+            case 'toggle-reveal':       toggleReveal(p.fieldId); break;
+            case 'change-theme':        changeTheme(p.themeId); break;
+            case 'remove-field':        removeField(p.fieldId); break;
+            case 'toggle-biometric':    toggleBiometric(); break;
+            case 'lock-app':            lockApp(); break;
+            case 'unlock-submit':       handleUnlockSubmit(); break;
+            case 'scan-field':          openScan(p.fieldId); break;
+            case 'camera-field':        openCamera(p.fieldId); break;
+            case 'simulate-scan':       simulateScanResult(p.type); break;
+            case 'close-scan':          closeScan(); break;
+            case 'toggle-flash':        showToast('🔦 Flash toggled'); break;
+            case 'copy-field':          copyToClipboard(p.value); break;
+            case 'share-card':          shareCard(); break;
+            case 'export-data':         exportData(); break;
+            case 'import-data':         importData(); break;
+            case 'show-about':          state.showAboutModal=true; requestAnimationFrame(render); break;
+            case 'close-about':         state.showAboutModal=false; requestAnimationFrame(render); break;
+            case 'save-pin':            handleSavePin(); break;
+            case 'remove-pin':          removePin(); break;
+            case 'save-card':           saveCard(); break;
+            case 'add-extra-field':     addExtraField(); break;
+            case 'start-new-card':      startEdit(); break;
+            case 'clear-search':        state.searchQuery=''; requestAnimationFrame(render); break;
+            case 'filter-category':     state.activeCategory=p.category; requestAnimationFrame(render); break;
+            case 'capture-photo':       state.cameraPreview=true; render(); break;
+            case 'retake-photo':        state.cameraPreview=false; render(); break;
+            case 'toggle-field-select': toggleFieldSelect(p.fieldId); break;
+            case 'select-all-fields':   selectAllFields(); break;
+            case 'clear-selection':     state.selectedFields.clear(); requestAnimationFrame(render); break;
+            case 'share-selected':      shareSelected(); break;
+            case 'copy-selected':       copySelected(); break;
+        }
+    });
+    app.addEventListener('input',e=>{
+        const a=e.target.dataset.action;
+        if(a==='search-input'){ state.searchQuery=e.target.value; render(); }
+        if(a==='pin-input')    handlePinInputSecurity(e.target);
+        if(a==='unlock-pin')   handlePinInputLock(e.target); // [F3]
+        if(a==='card-name-input'&&state.editingCard) state.editingCard.name=e.target.value;
+        if(a==='field-value-input')    updateFieldValue(e.target.dataset.fieldId,e.target.value);
+        if(a==='field-label-input')    updateFieldLabel(e.target.dataset.fieldId,e.target.value);
+        if(a==='field-category-select')updateFieldCategory(e.target.dataset.fieldId,e.target.value);
+    });
+    // SortableJS [F5 fix]
+    setTimeout(()=>{
+        const el=document.getElementById('extra-fields-container');
+        if(el&&!sortableInstance){
+            sortableInstance=new Sortable(el,{
+                handle:'.drag-handle', animation:150,
+                ghostClass:'sortable-ghost', dragClass:'sortable-drag',
+                onEnd:(evt)=>{
+                    if(!state.editingCard)return;
+                    const isStatic=f=>['ΑΔΤ','ΑΦΜ','ΑΜΚΑ','ΑΜΑ'].includes(f.label)||f.type==='phone';
+                    const statics=state.editingCard.fields.filter(isStatic);
+                    const extras=state.editingCard.fields.filter(f=>!isStatic(f));
+                    const order=Array.from(evt.to.children).map(c=>c.dataset.fieldId);
+                    state.editingCard.fields=[...statics,...order.map(id=>extras.find(f=>f.id===id)).filter(Boolean)];
+                }
+            });
+        }
+    },150);
+};
+
+// ── RENDER ENGINE ──
+const render=()=>{
+    if(renderPending)return; renderPending=true;
+    requestAnimationFrame(()=>{
+        const app=document.getElementById('app');
+        const screen=document.getElementById('screen');
+        if(!app||!screen){renderPending=false;return;}
+        const t=T();
+        screen.classList.remove('glass-mode');
+        if(t.glass) screen.classList.add('glass-mode');
+        else screen.style.background=t.bg;
+        resetInactivityTimer();
+        const views={home:renderHome,settings:renderSettings,search:renderSearch,
+            security:renderSecurity,themes:renderThemes,card:renderCardDetail,
+            edit:renderEdit,scan:renderScan,camera:renderCamera,lock:renderLockScreen};
+        app.innerHTML=(views[state.currentView]||renderHome)()
+            +(state.showAboutModal?renderAboutModal():'')
+            +renderToast();
+        setupEventDelegation();
+        saveToStorage();
+        renderPending=false;
+    });
+};
+
+// ── SVG ICONS ──
+const ICO={
+    settings:`<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>`,
+    lock:`<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`,
+    back:`<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>`,
+    plus:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/></svg>`,
+    chevR:`<svg class="w-5 h-5 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>`,
+    share:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>`,
+    edit:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>`,
+    trash:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>`,
+    copy:`<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>`,
+    eye:`<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>`,
+    eyeOff:`<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/></svg>`,
+    drag:`<svg class="w-5 h-5 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/></svg>`,
+    x:`<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>`,
+    check:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>`,
+    scan:`<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>`,
+    camera:`<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>`,
+    upload:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>`,
+    download:`<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>`,
+};
+
+const CAT_ICONS={'Προσωπικά':'👤','Υγεία':'🏥','Τράπεζα':'🏦','Άλλο':'🚗'};
+
+// ════════ RENDERS ════════
+
+const renderHome=()=>{
+    const t=T(), cb=CB(t), brd=BORD(t);
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="flex items-center justify-between p-4 border-b" style="border-color:${brd}">
+        <button data-action="navigate" data-view="settings" class="p-2 rounded-xl hover:opacity-70 min-touch-target" style="color:${t.primary}">${ICO.settings}</button>
+        <h1 class="font-bold text-base tracking-wide">ΤΑ ΕΓΓΡΑΦΑ ΜΟΥ</h1>
+        <button data-action="lock-app" class="p-2 rounded-xl hover:opacity-70 min-touch-target" style="color:${t.primary}">${ICO.lock}</button>
+    </div>
+    <div class="p-4">
+        <button data-action="start-new-card" class="w-full py-3 rounded-2xl font-bold text-sm text-white active:scale-95 transition-transform flex items-center justify-center gap-2" style="background:${t.primary}">
+            ${ICO.plus} ΝΕΑ ΚΑΡΤΕΛΑ
+        </button>
+    </div>
+    <div class="flex-1 overflow-y-auto scrollbar-hide px-4 pb-4 space-y-3">
+        ${state.cards.map(card=>`
+        <div data-action="view-card" data-card-id="${card.id}"
+             class="card-item rounded-2xl p-4 shadow-sm border cursor-pointer flex items-center justify-between"
+             style="background:${cb};border-color:${brd};color:${CT(t)}">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-full flex items-center justify-center text-white font-bold text-base flex-shrink-0" style="background:${t.primary}">${SecurityUtils.escapeHtml(card.name.charAt(0))}</div>
+                <div>
+                    <div class="font-bold text-sm">${SecurityUtils.escapeHtml(card.name)}</div>
+                    <div class="text-xs opacity-50">${card.fields.length>0?card.fields.length+' πεδία':'Άδειο'}</div>
+                </div>
+            </div>
+            <div class="flex items-center gap-2">
+                ${card.fields.length>0?`<div class="flex -space-x-1">${[...new Set(card.fields.map(f=>f.category))].slice(0,3).map(cat=>`<span class="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center text-xs border-2" style="border-color:${cb}">${CAT_ICONS[cat]||'📄'}</span>`).join('')}</div>`:''}
+                ${ICO.chevR}
+            </div>
+        </div>`).join('')}
+    </div>
+</div>`;
+};
+
+const renderSettings=()=>{
+    const t=T(), cb=CB(t), brd=BORD(t);
+    const row=(action,view,icon,title,sub)=>`
+    <button data-action="${action}" ${view?`data-view="${view}"`:''} class="w-full rounded-2xl border shadow-sm flex items-center gap-3 settings-card active:scale-95 transition-transform" style="background:${cb};border-color:${brd};color:${CT(t)}">
+        <span class="text-2xl flex-shrink-0">${icon}</span>
+        <div class="flex-1 text-left min-w-0"><div class="font-bold text-sm">${title}</div><div class="text-xs opacity-50 truncate">${sub}</div></div>
+        ${ICO.chevR}
+    </button>`;
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="flex items-center gap-3 p-4 border-b" style="border-color:${brd}">
+        <button data-action="back" class="p-2 rounded-xl hover:opacity-70 min-touch-target">${ICO.back}</button>
+        <h1 class="font-bold text-base">ΡΥΘΜΙΣΕΙΣ</h1>
+    </div>
+    <div class="flex-1 overflow-y-auto scrollbar-hide p-4 space-y-3">
+        ${row('navigate','search','🔍','ΑΝΑΖΗΤΗΣΗ','Αναζήτηση σε όλες τις καρτέλες')}
+        ${row('navigate','security','🔒','ΑΣΦΑΛΕΙΑ','Ορισμός / Αλλαγή / Αφαίρεση PIN')}
+        <div class="rounded-2xl border shadow-sm" style="background:${cb};border-color:${brd};color:${CT(t)}">
+            <div class="flex items-center gap-3 settings-card border-b" style="border-color:${brd}">
+                <span class="text-2xl flex-shrink-0">💾</span>
+                <div class="flex-1 text-left"><div class="font-bold text-sm">ΔΕΔΟΜΕΝΑ</div><div class="text-xs opacity-50">Εξαγωγή & Εισαγωγή</div></div>
+            </div>
+            <div class="grid grid-cols-2 divide-x" style="border-color:${brd}">
+                <button data-action="export-data" class="flex flex-col items-center gap-1.5 py-3 active:opacity-70 transition-opacity">
+                    ${ICO.download}
+                    <span class="text-xs font-bold opacity-70">Εξαγωγή</span>
+                </button>
+                <button data-action="import-data" class="flex flex-col items-center gap-1.5 py-3 active:opacity-70 transition-opacity">
+                    ${ICO.upload}
+                    <span class="text-xs font-bold opacity-70">Εισαγωγή</span>
+                </button>
+            </div>
+        </div>
+        ${row('navigate','themes','🎨','ΕΜΦΑΝΙΣΗ','Επιλογή θέματος χρωμάτων')}
+        ${row('show-about','','ℹ️','ΣΧΕΤΙΚΑ','Πληροφορίες & οδηγίες χρήσης')}
+        <div class="text-center py-4 opacity-30"><p class="text-xs font-medium">© ΤΑΧΜΑΖΙΔΗΣ ΓΙΩΡΓΟΣ • 2026</p><p class="text-xs mt-0.5">Smart Vault v3.6</p></div>
+    </div>
+</div>`;
+};
+
+const renderSearch=()=>{
+    const t=T(), cb=CB(t), brd=BORD(t);
+    const q=state.searchQuery.toLowerCase();
+    const filtered=state.cards.filter(c=>!q||c.name.toLowerCase().includes(q)||c.fields.some(f=>f.value.toLowerCase().includes(q)||f.label.toLowerCase().includes(q)));
+    const hl=text=>{ if(!q)return SecurityUtils.escapeHtml(text); return SecurityUtils.escapeHtml(text).replace(new RegExp(`(${SecurityUtils.escapeRegex(q)})`,'gi'),'<mark class="search-highlight">$1</mark>'); };
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="p-4 border-b" style="border-color:${brd}">
+        <div class="flex items-center gap-3">
+            <button data-action="back" class="p-2 rounded-xl hover:opacity-70 min-touch-target">${ICO.back}</button>
+            <div class="flex-1 relative">
+                <input type="text" data-action="search-input" value="${SecurityUtils.escapeHtml(state.searchQuery)}"
+                    class="w-full border rounded-xl px-4 py-2.5 pl-10 text-sm outline-none"
+                    style="background:${cb};color:${CT(t)};border-color:${brd}" placeholder="ΑΔΤ, ΑΦΜ, IBAN, Όνομα..." autofocus>
+                <svg class="w-4 h-4 absolute left-3 top-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                ${state.searchQuery?`<button data-action="clear-search" class="absolute right-2 top-2 min-touch-target opacity-50">${ICO.x}</button>`:''}
+            </div>
+        </div>
+    </div>
+    <div class="flex-1 overflow-y-auto scrollbar-hide p-4 space-y-3">
+        ${filtered.length===0?`<div class="text-center py-16 opacity-40"><svg class="w-14 h-14 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><p>Δεν βρέθηκαν αποτελέσματα</p></div>`
+        :filtered.map(card=>`
+        <div data-action="view-card" data-card-id="${card.id}" class="card-item rounded-2xl p-4 border cursor-pointer shadow-sm" style="background:${cb};border-color:${brd};color:${CT(t)}">
+            <div class="flex items-center justify-between mb-2">
+                <span class="font-bold">${hl(card.name)}</span>
+                <span class="text-xs px-2 py-0.5 rounded-full opacity-50" style="background:${t.primary}22">${card.fields.length} πεδία</span>
+            </div>
+            ${card.fields.filter(f=>!q||f.value.toLowerCase().includes(q)||f.label.toLowerCase().includes(q)).slice(0,3).map(f=>`
+            <div class="text-xs py-1 border-t" style="border-color:${brd}">
+                <span class="font-bold" style="color:${t.primary}">${SecurityUtils.escapeHtml(f.label)}: </span>
+                <span class="font-mono">${f.type==='iban'?formatIBAN(f.value):f.type==='phone'?formatPhone(f.value):hl(f.value)}</span>
+            </div>`).join('')}
+        </div>`).join('')}
+    </div>
+</div>`;
+};
+
+const renderSecurity=()=>{
+    const t=T(), cb=CB(t), brd=BORD(t);
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="flex items-center gap-3 p-4 border-b" style="border-color:${brd}">
+        <button data-action="back" class="p-2 rounded-xl hover:opacity-70 min-touch-target">${ICO.back}</button>
+        <h1 class="font-bold text-base">ΑΣΦΑΛΕΙΑ</h1>
+    </div>
+    <div class="flex-1 overflow-y-auto scrollbar-hide p-4 space-y-4">
+        <div class="rounded-2xl p-4 border" style="background:${cb};border-color:${brd};color:${CT(t)}">
+            <div class="flex items-center gap-2 mb-3"><span class="text-2xl">🔒</span><h3 class="font-bold">PIN 6 ΨΗΦΙΩΝ</h3></div>
+            <p class="text-xs opacity-60 mb-4">${state.savedPinHash?'✅ PIN ενεργό':'⚠️ Χωρίς PIN — η εφαρμογή δεν κλειδώνει'}</p>
+            <div class="flex gap-1.5 justify-center mb-3">
+                ${[...Array(6)].map((_,i)=>`<input type="password" inputmode="numeric" maxlength="1" data-action="pin-input" data-index="${i}" class="pin-input" style="border-color:${brd};background:${isDark(t)?'rgba(255,255,255,0.08)':cb};color:${CT(t)}">`).join('')}
+            </div>
+            <div id="pinMsg" class="text-sm text-center mb-3 font-medium hidden"></div>
+            <button data-action="save-pin" class="w-full py-3 text-white rounded-xl font-bold text-sm active:scale-95 transition-transform" style="background:${t.primary}">${state.savedPinHash?'ΑΛΛΑΓΗ PIN':'ΟΡΙΣΜΟΣ PIN'}</button>
+            ${state.savedPinHash?`<button data-action="remove-pin" class="w-full mt-2 py-3 border border-red-400 text-red-400 rounded-xl font-bold text-sm active:scale-95 transition-transform">ΑΦΑΙΡΕΣΗ PIN</button>`:''}
+        </div>
+        <div class="rounded-2xl p-4 border" style="background:${cb};border-color:${brd};color:${CT(t)}">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3"><span class="text-2xl">👆</span><div><div class="font-bold text-sm">Face ID / Touch ID</div><div class="text-xs opacity-50">Γρήγορο ξεκλείδωμα</div></div></div>
+                <button data-action="toggle-biometric" class="w-12 h-7 rounded-full transition-colors relative flex-shrink-0" style="background:${state.biometricEnabled?t.primary:'#94a3b8'}">
+                    <div class="w-5 h-5 bg-white rounded-full absolute top-1 transition-transform shadow-sm ${state.biometricEnabled?'translate-x-6':'translate-x-1'}"></div>
+                </button>
+            </div>
+        </div>
+        <div class="rounded-2xl p-4 border border-amber-300 bg-amber-50">
+            <div class="flex items-center gap-2"><span class="text-xl">⏱️</span><div><div class="font-bold text-amber-800 text-sm">Auto-Lock</div><div class="text-xs text-amber-600">Αυτόματο κλείδωμα μετά από 2 λεπτά αδράνειας</div></div></div>
+        </div>
+    </div>
+</div>`;
+};
+
+// [C3] THEMES — κάθε card δείχνει τα χρώματα ΤΟΥ ΘΕΜΑΤΟΣ, όχι του current theme
+const renderThemes=()=>{
+    const t=T(), brd=BORD(t);
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="flex items-center gap-3 p-4 border-b" style="border-color:${brd}">
+        <button data-action="back" class="p-2 rounded-xl hover:opacity-70 min-touch-target">${ICO.back}</button>
+        <h1 class="font-bold text-base">ΕΜΦΑΝΙΣΗ</h1>
+    </div>
+    <div class="flex-1 overflow-y-auto scrollbar-hide p-4 space-y-2">
+        ${THEMES.map(th=>{
+            // [C3] Κάθε card χρησιμοποιεί τα χρώματα ΤΟΥ ΕΑΥΤΟΥ ΤΟΥ
+            const thCardBg=th.glass?'rgba(255,255,255,0.12)':th.oled?'#111':th.cardBg||'white';
+            const thCardText=th.cardText||th.text;
+            const thBord=state.themeId===th.id?th.primary:(th.oled?'rgba(255,255,255,0.15)':th.glass?'rgba(255,255,255,0.2)':'#e2e8f0');
+            const selected=state.themeId===th.id;
+            return`<button data-action="change-theme" data-theme-id="${th.id}"
+                class="w-full rounded-2xl p-3 border flex items-center gap-3 active:scale-95 transition-all ${selected?'ring-2':'shadow-sm'}"
+                style="background:${thCardBg};border-color:${thBord};color:${thCardText};${selected?`--tw-ring-color:${th.primary}`:''}">
+                <div class="w-9 h-9 rounded-full flex-shrink-0 shadow-sm" style="background:${th.primary}"></div>
+                <div class="flex-1 text-left">
+                    <div class="font-bold text-sm">${SecurityUtils.escapeHtml(th.label)}</div>
+                    <div class="flex gap-1 mt-1">
+                        <div class="w-4 h-4 rounded-full" style="background:${th.primary}"></div>
+                        <div class="w-4 h-4 rounded-full" style="background:${th.accent}"></div>
+                        <div class="w-4 h-4 rounded-full border" style="background:${th.oled?'#333':th.glass?'rgba(255,255,255,0.3)':th.bg};border-color:rgba(0,0,0,0.1)"></div>
+                    </div>
+                </div>
+                ${selected?`<svg class="w-5 h-5 flex-shrink-0" style="color:${th.primary}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>`:''}
+            </button>`;
+        }).join('')}
+    </div>
+</div>`;
+};
+
+const renderCardDetail=()=>{
+    const t=T(), cb=CB(t), brd=BORD(t);
+    const card=state.cards.find(c=>c.id===state.selectedCard);
+    if(!card){navigate('home');return'';}
+    const cats=['Όλα',...[...new Set(card.fields.map(f=>f.category))]];
+    const fields=state.activeCategory==='Όλα'?card.fields:card.fields.filter(f=>f.category===state.activeCategory);
+    const nSel=state.selectedFields.size, hasSel=nSel>0;
+    const chkOn=`<svg class="w-5 h-5" viewBox="0 0 20 20"><rect width="20" height="20" rx="5" fill="${t.primary}"/><path d="M5 10l3.5 3.5L15 7" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>`;
+    const chkOff=`<svg class="w-5 h-5" viewBox="0 0 20 20" fill="none"><rect x="1" y="1" width="18" height="18" rx="4" stroke="${isDark(t)?'rgba(255,255,255,0.3)':'#cbd5e1'}" stroke-width="1.5"/></svg>`;
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="flex items-center justify-between p-4 border-b" style="border-color:${brd}">
+        <button data-action="back" class="p-2 rounded-xl hover:opacity-70 min-touch-target">${ICO.back}</button>
+        <div class="text-center"><h1 class="font-bold text-base">${SecurityUtils.escapeHtml(card.name)}</h1>${hasSel?`<p class="text-xs font-medium" style="color:${t.primary}">${nSel} επιλεγμένα</p>`:''}</div>
+        <button data-action="lock-app" class="p-2 rounded-xl hover:opacity-70 min-touch-target" style="color:${t.primary}">${ICO.lock}</button>
+    </div>
+    <div class="flex gap-2 px-4 py-3 overflow-x-auto scrollbar-hide border-b" style="border-color:${brd}">
+        ${cats.map(cat=>`<button data-action="filter-category" data-category="${cat}"
+            class="px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap category-btn ${state.activeCategory===cat?'active':''}"
+            style="${state.activeCategory===cat?`background:${t.primary};color:white;border:none`:`background:${cb};border:1px solid ${brd};color:${CT(t)}`}">
+            ${CAT_ICONS[cat]?CAT_ICONS[cat]+' ':''}${SecurityUtils.escapeHtml(cat)}</button>`).join('')}
+    </div>
+    ${hasSel?`<div class="flex items-center justify-between px-4 py-2 border-b text-xs font-bold" style="border-color:${brd};background:${t.primary}18">
+        <button data-action="select-all-fields" style="color:${t.primary}">${nSel===fields.length?'Αποεπιλογή όλων':'Επιλογή όλων'}</button>
+        <button data-action="clear-selection" class="opacity-50">Ακύρωση</button>
+    </div>`:''}
+    <div class="flex-1 overflow-y-auto scrollbar-hide px-4 pb-28">
+        ${fields.length===0?`<p class="text-center opacity-40 py-10 text-sm">Δεν υπάρχουν πεδία</p>`:''}
+        ${fields.map(field=>{
+            const isBanking=field.category==='Τράπεζα'||field.type==='iban';
+            const isRev=state.revealedFields.has(field.id);
+            const isSel=state.selectedFields.has(field.id);
+            let disp=field.value;
+            if(field.type==='iban') disp=isBanking&&!isRev?maskVal(field.value):formatIBAN(field.value);
+            else if(field.type==='phone') disp=formatPhone(field.value);
+            else if(isBanking&&!isRev) disp=maskVal(field.value);
+            return`<div class="flex items-center py-3 border-b gap-3 ${isSel?'rounded-xl px-2 -mx-2':''}"
+                 style="border-color:${brd};${isSel?`background:${t.primary}15`:''}">
+                <button data-action="toggle-field-select" data-field-id="${field.id}" class="flex-shrink-0 min-touch-target rounded-lg active:scale-90">${isSel?chkOn:chkOff}</button>
+                <div class="flex-1 min-w-0">
+                    <div class="font-bold text-xs mb-0.5" style="color:${t.primary}">${SecurityUtils.escapeHtml(field.label)}</div>
+                    <div class="text-sm font-mono break-all ${isBanking&&!isRev?'blur-sensitive':''}" style="color:${CT(t)}">${SecurityUtils.escapeHtml(disp)}</div>
+                </div>
+                <div class="flex items-center gap-1 flex-shrink-0">
+                    ${isBanking?`<button data-action="toggle-reveal" data-field-id="${field.id}" class="p-2 rounded-lg hover:opacity-70 min-touch-target" style="color:${t.primary}">${isRev?ICO.eyeOff:ICO.eye}</button>`:''}
+                    <button data-action="copy-field" data-value="${SecurityUtils.escapeHtml(field.value)}" class="p-2 rounded-lg hover:opacity-70 min-touch-target opacity-50">${ICO.copy}</button>
+                    <span class="text-xs px-1.5 py-0.5 rounded-full font-medium" style="background:${t.primary}20;color:${t.primary}">${SecurityUtils.escapeHtml(field.category)}</span>
+                </div>
+            </div>`;
+        }).join('')}
+    </div>
+    <!-- [U1] Bottom bar: icon-only, no text overflow -->
+    <div class="absolute bottom-4 left-4 right-4">
+        ${hasSel?`
+        <div class="rounded-2xl overflow-hidden shadow-xl border" style="background:${cb};border-color:${brd}">
+            <div class="px-3 py-2 border-b text-xs font-bold opacity-60" style="border-color:${brd}">${nSel} πεδία επιλεγμένα</div>
+            <div class="grid grid-cols-3">
+                <button data-action="share-selected" class="py-3 text-white flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" style="background:${t.primary}">${ICO.share}<span class="text-xs font-bold">Κοινοπ.</span></button>
+                <button data-action="copy-selected"  class="py-3 text-white flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform bg-emerald-500">${ICO.copy}<span class="text-xs font-bold">Αντιγρ.</span></button>
+                <button data-action="clear-selection" class="py-3 text-white flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform bg-slate-500">${ICO.x}<span class="text-xs font-bold">Ακύρωση</span></button>
+            </div>
+        </div>`:`
+        <!-- [U1] Μόνο icons, χωρίς κείμενο -->
+        <div class="grid grid-cols-3 gap-2">
+            <button data-action="share-card"                          class="py-4 bg-emerald-500 text-white rounded-2xl flex items-center justify-center active:scale-95 transition-transform">${ICO.share}</button>
+            <button data-action="edit-card"  data-card-id="${card.id}" class="py-4 bg-amber-500  text-white rounded-2xl flex items-center justify-center active:scale-95 transition-transform">${ICO.edit}</button>
+            <button data-action="delete-card" data-card-id="${card.id}" class="py-4 bg-red-500    text-white rounded-2xl flex items-center justify-center active:scale-95 transition-transform">${ICO.trash}</button>
+        </div>`}
+    </div>
+</div>`;
+};
+
+// [U2] EDIT — Επιπλέον Πεδία πάντα ΚΑΤΩ
+const renderEdit=()=>{
+    const t=T(), cb=CB(t), brd=BORD(t);
+    const card=state.editingCard; if(!card){navigate('home');return'';}
+    const isBase=f=>['ΑΔΤ','ΑΦΜ','ΑΜΚΑ','ΑΜΑ'].includes(f.label);
+    const isPhone=f=>f.type==='phone'||['Κινητό','Σταθερό','Τηλέφωνο'].some(k=>f.label.includes(k));
+    const basicFields=card.fields.filter(isBase);
+    const phoneFields=card.fields.filter(f=>!isBase(f)&&isPhone(f));
+    const extraFields=card.fields.filter(f=>!isBase(f)&&!isPhone(f));
+
+    const inStyle=`background:${cb};color:${CT(t)};border-color:${brd}`;
+    const btnStyle=`background:${isDark(t)?'rgba(255,255,255,0.1)':'#f1f5f9'}`;
+    const catSel=f=>`<select data-action="field-category-select" data-field-id="${f.id}" class="text-xs border rounded-lg px-2 py-1 outline-none" style="${inStyle}">
+        ${['Προσωπικά','Υγεία','Τράπεζα','Άλλο'].map(c=>`<option value="${c}" ${f.category===c?'selected':''}>${c}</option>`).join('')}</select>`;
+    const scanCam=f=>`<button data-action="scan-field" data-field-id="${f.id}" class="p-2 rounded-lg min-touch-target hover:opacity-70" style="${btnStyle}" title="Scan">${ICO.scan}</button>
+        <button data-action="camera-field" data-field-id="${f.id}" class="p-2 rounded-lg min-touch-target hover:opacity-70" style="${btnStyle}" title="Camera">${ICO.camera}</button>`;
+
+    const mkField=(f,isPhone=false)=>`
+    <div class="rounded-xl border p-3" style="background:${cb};border-color:${brd}">
+        <div class="flex items-center gap-2 mb-2">
+            <span class="text-xs font-bold flex-1" style="color:${t.primary}">${SecurityUtils.escapeHtml(f.label)}</span>
+            ${catSel(f)}
+        </div>
+        <div class="flex items-center gap-2">
+            <input type="${isPhone?'tel':'text'}" ${isPhone?'inputmode="tel"':''} data-action="field-value-input" data-field-id="${f.id}"
+                value="${SecurityUtils.escapeHtml(f.type==='iban'?formatIBAN(f.value):isPhone?formatPhone(f.value):f.value)}"
+                class="flex-1 border rounded-lg px-3 py-2 text-sm outline-none font-mono" style="${inStyle}" ${isPhone?'placeholder="6941234567"':''}>
+            ${scanCam(f)}
+        </div>
+    </div>`;
+
+    return`<div class="flex flex-col h-full fade-in" style="background:${t.glass?'transparent':t.bg};color:${t.text}">
+    <div class="flex items-center justify-between p-4 border-b" style="border-color:${brd}">
+        <button data-action="back" class="p-2 rounded-xl hover:opacity-70 min-touch-target">${ICO.back}</button>
+        <h1 class="font-bold text-base">ΕΠΕΞΕΡΓΑΣΙΑ</h1>
+        <button data-action="save-card" class="px-4 py-2 rounded-xl text-white text-sm font-bold active:scale-95" style="background:${t.primary}">ΑΠΟΘΗΚΕΥΣΗ</button>
+    </div>
+    <div class="flex-1 overflow-y-auto scrollbar-hide p-4 space-y-5">
+        <div>
+            <label class="text-xs font-bold opacity-50 mb-1.5 block">ΟΝΟΜΑ ΚΑΡΤΕΛΑΣ</label>
+            <input type="text" data-action="card-name-input" value="${SecurityUtils.escapeHtml(card.name)}"
+                class="w-full border rounded-xl px-4 py-3 text-lg font-bold outline-none" style="${inStyle}" placeholder="π.χ. Γιώργος">
+        </div>
+        ${basicFields.length?`<div><h3 class="text-xs font-bold opacity-50 mb-3">ΒΑΣΙΚΑ ΣΤΟΙΧΕΙΑ</h3><div class="space-y-3">${basicFields.map(f=>mkField(f)).join('')}</div></div>`:''}
+        <div>
+            <h3 class="text-xs font-bold opacity-50 mb-3">ΤΗΛΕΦΩΝΑ</h3>
+            <div class="space-y-3">
+                ${phoneFields.map(f=>mkField(f,true)).join('')}
+                ${phoneFields.length===0?`<p class="text-xs opacity-40 italic">Χωρίς τηλέφωνα. Προσθέστε από τα Επιπλέον Πεδία.</p>`:''}
+            </div>
+        </div>
+        <!-- [U2] Επιπλέον Πεδία — πάντα τελευταίο, εύκολο να βρεθεί -->
+        <div>
+            <div class="flex items-center justify-between mb-3">
+                <h3 class="text-xs font-bold opacity-50">ΕΠΙΠΛΕΟΝ ΠΕΔΙΑ</h3>
+                <button data-action="add-extra-field" class="p-2 rounded-lg hover:opacity-70 min-touch-target" style="color:${t.primary}">${ICO.plus}</button>
+            </div>
+            <div id="extra-fields-container" class="space-y-3">
+                ${extraFields.map(f=>`
+                <div class="rounded-xl border p-3" style="background:${cb};border-color:${brd}" data-field-id="${f.id}">
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="drag-handle min-touch-target flex items-center justify-center rounded hover:opacity-70" title="Σύρε">${ICO.drag}</div>
+                        <input type="text" data-action="field-label-input" data-field-id="${f.id}" value="${SecurityUtils.escapeHtml(f.label)}"
+                            class="flex-1 border rounded-lg px-2 py-1 text-xs font-bold outline-none" style="${inStyle}">
+                        ${catSel(f)}
+                        <button data-action="remove-field" data-field-id="${f.id}" class="p-1.5 rounded-lg text-red-400 hover:bg-red-500/10 min-touch-target flex items-center">${ICO.x}</button>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <input type="text" data-action="field-value-input" data-field-id="${f.id}"
+                            value="${SecurityUtils.escapeHtml(f.type==='iban'?formatIBAN(f.value):f.value)}"
+                            class="flex-1 border rounded-lg px-3 py-2 text-sm outline-none font-mono" style="${inStyle}">
+                        ${scanCam(f)}
+                    </div>
+                </div>`).join('')}
+                ${extraFields.length===0?`<div class="text-center py-6 opacity-40 border-2 border-dashed rounded-xl" style="border-color:${brd}">
+                    <p class="text-sm">Πατήστε + για νέο πεδίο</p>
+                    <p class="text-xs mt-1">IBAN, Δίπλωμα, Διαβατήριο...</p>
+                </div>`:''}
+            </div>
+        </div>
+    </div>
+</div>`;
+};
+
+const renderScan=()=>`<div class="flex flex-col h-full bg-black relative overflow-hidden">
+    <div class="absolute inset-0"><div class="scan-line"></div></div>
+    <div class="relative z-10 flex items-center justify-between p-4">
+        <button data-action="close-scan" class="p-2 rounded-xl bg-white/10 text-white min-touch-target">${ICO.x.replace('w-4 h-4','w-6 h-6')}</button>
+        <span class="text-white font-bold text-sm">ΣΑΡΩΣΗ ΕΓΓΡΑΦΟΥ</span>
+        <button data-action="toggle-flash" class="p-2 rounded-xl bg-white/10 text-white min-touch-target"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></button>
+    </div>
+    <div class="flex-1 flex items-center justify-center relative z-10 px-6">
+        <div class="w-full max-w-xs aspect-video border-2 border-white/20 rounded-2xl relative">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
+                <div class="w-14 h-14 rounded-full bg-white/10 flex items-center justify-center mb-3"><svg class="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+                <p class="text-white/80 text-sm font-medium">Τοποθετήστε το έγγραφο</p>
+            </div>
+            <div class="absolute top-0 left-0 w-10 h-10 border-t-4 border-l-4 border-emerald-400 rounded-tl-xl"></div>
+            <div class="absolute top-0 right-0 w-10 h-10 border-t-4 border-r-4 border-emerald-400 rounded-tr-xl"></div>
+            <div class="absolute bottom-0 left-0 w-10 h-10 border-b-4 border-l-4 border-emerald-400 rounded-bl-xl"></div>
+            <div class="absolute bottom-0 right-0 w-10 h-10 border-b-4 border-r-4 border-emerald-400 rounded-br-xl"></div>
+        </div>
+    </div>
+    <div class="relative z-10 p-6 flex items-center justify-center gap-6">
+        <button data-action="simulate-scan" data-type="iban" class="flex flex-col items-center gap-2 text-white/60 hover:text-white min-touch-target"><div class="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center">${ICO.scan.replace('w-4 h-4','w-7 h-7')}</div><span class="text-xs font-medium">IBAN</span></button>
+        <button data-action="simulate-scan" data-type="card" class="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-xl active:scale-95 min-touch-target">${ICO.camera.replace('w-4 h-4','w-9 h-9').replace('text-','text-black ')}</button>
+        <button data-action="simulate-scan" data-type="doc" class="flex flex-col items-center gap-2 text-white/60 hover:text-white min-touch-target"><div class="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center"><svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div><span class="text-xs font-medium">Έγγραφο</span></button>
+    </div>
+    <p class="relative z-10 text-white/25 text-xs text-center pb-4">Demo OCR • Δεδομένα προσομοίωσης</p>
+</div>`;
+
+const renderCamera=()=>`<div class="flex flex-col h-full bg-black relative">
+    <div class="relative z-10 flex items-center justify-between p-4">
+        <button data-action="close-scan" class="p-2 rounded-xl bg-white/10 text-white min-touch-target">${ICO.x.replace('w-4 h-4','w-6 h-6')}</button>
+        <span class="text-white font-bold text-sm">ΚΑΜΕΡΑ</span><div class="w-10"></div>
+    </div>
+    <div class="flex-1 flex items-center justify-center px-4">
+        <div class="w-full max-w-xs aspect-[3/4] rounded-2xl overflow-hidden border-2 border-white/15">
+            ${state.cameraPreview?`<div class="w-full h-full bg-gradient-to-br from-zinc-800 to-zinc-900 flex flex-col items-center justify-center"><svg class="w-14 h-14 text-emerald-400 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><p class="text-white font-medium text-sm">Φωτογραφία λήφθηκε!</p></div>`
+            :`<div class="w-full h-full bg-gradient-to-br from-zinc-800 to-zinc-900 flex flex-col items-center justify-center"><svg class="w-16 h-16 text-white/20 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg><p class="text-white/50 text-sm">Πατήστε για λήψη</p></div>`}
+        </div>
+    </div>
+    <div class="relative z-10 p-6 flex items-center justify-center">
+        ${!state.cameraPreview
+            ?`<button data-action="capture-photo" class="w-20 h-20 rounded-full border-4 border-white flex items-center justify-center shadow-xl active:scale-95"><div style="width:56px;height:56px;border-radius:9999px;background:rgba(255,255,255,0.9)"></div></button>`
+            :`<div class="flex gap-4"><button data-action="retake-photo" class="px-6 py-3 rounded-xl bg-white/15 text-white font-medium">Ξανά</button><button data-action="simulate-scan" data-type="doc" class="px-6 py-3 rounded-xl bg-emerald-500 text-white font-bold">Χρήση</button></div>`}
+    </div>
+</div>`;
+
+// [F2+F3] Lock screen με σωστά inputs
+const renderLockScreen=()=>{
+    const t=T(), ls=checkLockStatus();
+    return`<div class="lock-overlay">
+    <div class="text-center mb-8">
+        ${ICO.lock.replace('w-6 h-6','w-16 h-16 mx-auto mb-4').replace('stroke="currentColor"',`stroke="${t.primary}"`)}
+        <h2 class="text-white text-xl font-bold mb-1">Smart Vault</h2>
+        <p class="text-slate-400 text-sm">${ls.locked?`Κλείδωμα για ${ls.remaining} δευτερόλεπτα`:'Εισάγετε το PIN σας'}</p>
+    </div>
+    ${!ls.locked?`<div class="flex gap-2 justify-center mb-3">
+        ${[...Array(6)].map((_,i)=>`<input type="password" inputmode="numeric" maxlength="1" class="pin-input" data-action="unlock-pin" data-index="${i}" autocomplete="off">`).join('')}
+    </div>
+    <p id="lockErrMsg" class="text-red-400 text-xs text-center min-h-5 mb-4"></p>`:''}
+    <p class="text-slate-600 text-xs mt-2">© 2026 Smart Vault v3.6</p>
+</div>`;
+};
+
+// [U3] About — modal sheet
+const renderAboutModal=()=>{
+    const t=T();
+    return`<div class="modal-overlay" data-action="close-about">
+    <div class="modal-sheet p-6" style="background:${t.cardBg||'white'};color:${t.cardText||t.text}" onclick="event.stopPropagation()">
+        <div class="flex items-center justify-between mb-5">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl" style="background:${t.primary}22">🔐</div>
+                <div><div class="font-bold text-lg">Smart Vault</div><div class="text-xs opacity-50">v3.6 — 2026</div></div>
+            </div>
+            <button data-action="close-about" class="p-2 rounded-xl hover:opacity-70 min-touch-target opacity-50">${ICO.x}</button>
+        </div>
+        <div class="space-y-4 text-sm">
+            <div class="p-3 rounded-xl" style="background:${t.primary}12">
+                <p class="font-bold mb-1" style="color:${t.primary}">📱 Τι είναι;</p>
+                <p class="opacity-70 leading-relaxed">Ψηφιακό θησαυροφυλάκιο για αποθήκευση εγγράφων και αριθμών (ΑΔΤ, ΑΦΜ, ΑΜΚΑ, IBAN, τηλέφωνα κ.ά.) οργανωμένα ανά πρόσωπο.</p>
+            </div>
+            ${[
+                ['🔒','Ασφάλεια','PIN 6 ψηφίων με SHA-256 hashing. Auto-lock μετά από 2 λεπτά αδράνειας. Αποκάλυψη IBAN με ένα tap.'],
+                ['📂','Οργάνωση','Κατηγορίες: Προσωπικά, Υγεία, Τράπεζα, Άλλο. Φιλτράρισμα & αναζήτηση σε όλα τα πεδία.'],
+                ['💾','Δεδομένα','Εξαγωγή JSON & CSV για Excel. Εισαγωγή από JSON/CSV αρχείο. Τα δεδομένα αποθηκεύονται τοπικά στη συσκευή.'],
+                ['🎨','Εμφάνιση','13 θέματα χρωμάτων. Drag & drop για αναδιάταξη πεδίων. Λειτουργεί χωρίς σύνδεση internet.'],
+                ['📤','Κοινοποίηση','Επιλογή πεδίων με checkbox και κοινοποίηση/αντιγραφή μόνο των επιλεγμένων.'],
+            ].map(([ico,title,desc])=>`
+            <div class="flex gap-3">
+                <span class="text-xl flex-shrink-0">${ico}</span>
+                <div><div class="font-bold text-xs mb-0.5">${title}</div><div class="text-xs opacity-60 leading-relaxed">${desc}</div></div>
+            </div>`).join('')}
+        </div>
+        <div class="mt-6 pt-4 border-t text-center text-xs opacity-40" style="border-color:${BORD(t)}">
+            <p>© ΤΑΧΜΑΖΙΔΗΣ ΓΙΩΡΓΟΣ • 2026</p>
+            <p class="mt-0.5">Smart Vault v3.6 — All data stored locally</p>
+        </div>
+        <button data-action="close-about" class="w-full mt-4 py-3 rounded-xl text-white font-bold text-sm active:scale-95" style="background:${t.primary}">Κλείσιμο</button>
+    </div>
+</div>`;
+};
+
+const renderToast=()=>{
+    if(!state.toast)return'';
+    const t=T(), ok=state.toast.type==='success';
+    return`<div class="absolute top-4 left-4 right-4 z-50 toast-enter">
+    <div class="rounded-xl shadow-xl p-4 flex items-center gap-3 border" style="background:${t.oled?'#111':'white'};border-color:${ok?'#bbf7d0':'#fecaca'}">
+        <span class="text-xl">${ok?'✅':'❌'}</span>
+        <p class="text-sm font-medium" style="color:${ok?'#166534':'#991b1b'}">${SecurityUtils.escapeHtml(state.toast.msg)}</p>
+    </div>
+</div>`;
+};
+
+// ── ACTION HANDLERS ──
+const handlePinInputSecurity=target=>{ target.value=target.value.replace(/\D/,'').slice(0,1); const i=parseInt(target.dataset.index); const inputs=document.querySelectorAll('[data-action="pin-input"]'); if(target.value&&i<5)inputs[i+1]?.focus(); };
+const handlePinInputLock=target=>{ // [F3]
+    target.value=target.value.replace(/\D/,'').slice(0,1);
+    const i=parseInt(target.dataset.index);
+    const inputs=Array.from(document.querySelectorAll('[data-action="unlock-pin"]'));
+    if(target.value&&i<5)inputs[i+1]?.focus();
+    if(inputs.map(x=>x.value).join('').length===6)handleUnlockSubmit();
+};
+const handleUnlockSubmit=async()=>{
+    const inputs=Array.from(document.querySelectorAll('[data-action="unlock-pin"]'));
+    const pin=inputs.map(i=>i.value).join('');
+    if(pin.length!==6)return;
+    const ok=await attemptUnlock(pin);
+    if(!ok){inputs.forEach(i=>i.value='');inputs[0]?.focus();}
+};
+const handleSavePin=async()=>{
+    const inputs=Array.from(document.querySelectorAll('[data-action="pin-input"]'));
+    const pin=inputs.map(i=>i.value).join('');
+    const msgEl=document.getElementById('pinMsg'); if(!msgEl)return;
+    if(pin.length!==6||!/^\d{6}$/.test(pin)){
+        msgEl.textContent='⚠️ Το PIN πρέπει να είναι 6 ψηφία.';
+        msgEl.className='text-sm text-center mb-3 font-medium text-red-500'; msgEl.classList.remove('hidden'); return;
+    }
+    state.savedPinHash=await SecurityUtils.hashPin(pin); state.pinSalt=SecurityUtils.generateSalt();
+    msgEl.textContent='✅ PIN ορίστηκε!'; msgEl.className='text-sm text-center mb-3 font-medium text-emerald-500'; msgEl.classList.remove('hidden');
+    inputs.forEach(i=>i.value='');
+    setTimeout(()=>{msgEl.classList.add('hidden');saveToStorage();},2000);
+};
+const removePin=()=>{ if(!confirm('Αφαίρεση PIN;'))return; state.savedPinHash=null;state.pinSalt=null; showToast('PIN αφαιρέθηκε'); setTimeout(()=>{render();saveToStorage();},400); };
+const toggleBiometric=()=>{state.biometricEnabled=!state.biometricEnabled;render();saveToStorage();};
+const changeTheme=id=>{state.themeId=id;render();saveToStorage();};
+const toggleReveal=id=>{state.revealedFields.has(id)?state.revealedFields.delete(id):state.revealedFields.add(id);render();};
+const updateFieldValue=(id,val)=>{const f=state.editingCard?.fields.find(x=>x.id===id);if(f)f.value=val.replace(/\s/g,'');};
+const updateFieldLabel=(id,val)=>{const f=state.editingCard?.fields.find(x=>x.id===id);if(f)f.label=val;};
+const updateFieldCategory=(id,val)=>{const f=state.editingCard?.fields.find(x=>x.id===id);if(f)f.category=val;};
+const removeField=id=>{if(!state.editingCard)return;state.editingCard.fields=state.editingCard.fields.filter(f=>f.id!==id);if(sortableInstance){sortableInstance.destroy();sortableInstance=null;}render();showToast('Πεδίο αφαιρέθηκε');};
+const addExtraField=()=>{
+    if(!state.editingCard)return;
+    state.editingCard.fields.push({id:genId(),label:'Νέο Πεδίο',value:'',category:'Άλλο',type:'text'});
+    if(sortableInstance){sortableInstance.destroy();sortableInstance=null;}
+    render(); showToast('Νέο πεδίο προστέθηκε');
+    setTimeout(()=>{const inp=document.querySelectorAll('[data-action="field-label-input"]');const last=inp[inp.length-1];if(last){last.focus();last.select();}},120);
+};
+const startEdit=()=>{
+    const newId=Math.max(0,...state.cards.map(c=>c.id))+1;
+    state.editingCard={id:newId,name:'',fields:[
+        {id:genId(),label:'ΑΔΤ',  value:'',category:'Προσωπικά',type:'text'},
+        {id:genId(),label:'ΑΦΜ',  value:'',category:'Προσωπικά',type:'text'},
+        {id:genId(),label:'ΑΜΚΑ', value:'',category:'Υγεία',    type:'text'},
+        {id:genId(),label:'ΑΜΑ',  value:'',category:'Υγεία',    type:'text'},
+        {id:genId(),label:'Κινητό Προσωπικό',value:'',category:'Προσωπικά',type:'phone'},
+        {id:genId(),label:'Σταθερό',value:'',category:'Προσωπικά',type:'phone'},
+    ]};
+    navigate('edit');
+};
+const editCard=id=>{const c=state.cards.find(x=>x.id===id);if(c){state.editingCard=JSON.parse(JSON.stringify(c));navigate('edit');}};
+const saveCard=()=>{
+    if(!state.editingCard)return;
+    if(!state.editingCard.name.trim()){showToast('⚠️ Εισάγετε όνομα','error');return;}
+    const idx=state.cards.findIndex(c=>c.id===state.editingCard.id);
+    if(idx>=0)state.cards[idx]=state.editingCard;else state.cards.push(state.editingCard);
+    state.editingCard=null;
+    if(sortableInstance){sortableInstance.destroy();sortableInstance=null;}
+    showToast('✅ Καρτέλα αποθηκεύτηκε!'); navigate('home');
+};
+const deleteCard=id=>{
+    if(!confirm('Να διαγραφεί;'))return;
+    state.cards=state.cards.filter(c=>c.id!==id);
+    if(state.selectedCard===id)state.selectedCard=null;
+    showToast('Καρτέλα διαγράφηκε'); navigate('home');
+};
+const openScan=id=>{state.scanTargetField=id;navigate('scan');};
+const openCamera=id=>{state.scanTargetField=id;state.cameraPreview=false;navigate('camera');};
+const closeScan=()=>{if(sortableInstance){sortableInstance.destroy();sortableInstance=null;}navigate('edit');};
+const simulateScanResult=type=>{
+    const res={iban:'GR1601101250000000099900888',card:'5520123456789012',doc:'Δείγμα κειμένου OCR'};
+    if(state.editingCard&&state.scanTargetField){const f=state.editingCard.fields.find(x=>x.id===state.scanTargetField);if(f){f.value=res[type];if(type==='iban')f.type='iban';showToast(`✅ ${type.toUpperCase()} αναγνώστηκε!`);}}
+    closeScan();
+};
+const toggleFieldSelect=id=>{state.selectedFields.has(id)?state.selectedFields.delete(id):state.selectedFields.add(id);requestAnimationFrame(render);};
+const selectAllFields=()=>{
+    const card=state.cards.find(c=>c.id===state.selectedCard);if(!card)return;
+    const fields=state.activeCategory==='Όλα'?card.fields:card.fields.filter(f=>f.category===state.activeCategory);
+    if(fields.every(f=>state.selectedFields.has(f.id)))fields.forEach(f=>state.selectedFields.delete(f.id));
+    else fields.forEach(f=>state.selectedFields.add(f.id));
+    requestAnimationFrame(render);
+};
+const getSelText=()=>{
+    const card=state.cards.find(c=>c.id===state.selectedCard);if(!card)return'';
+    return card.fields.filter(f=>state.selectedFields.has(f.id)).map(f=>`${f.label}: ${f.value}`).join('\n');
+};
+const shareSelected=async()=>{
+    const card=state.cards.find(c=>c.id===state.selectedCard);
+    const text=`📋 ${card?.name||''}\n\n`+getSelText();
+    if(navigator.share){try{await navigator.share({title:card?.name||'Smart Vault',text});return;}catch(e){if(e.name==='AbortError')return;}}
+    await copyToClipboard(text);
+};
+const copySelected=async()=>{await copyToClipboard(getSelText());state.selectedFields.clear();requestAnimationFrame(render);};
+
+// ── INIT ──
+const init=async()=>{
+    await loadFromStorage();
+    if(state.savedPinHash){state.isLocked=true;state.currentView='lock';}
+    requestAnimationFrame(render);
+    document.addEventListener('visibilitychange',()=>{if(document.hidden&&state.savedPinHash&&!state.isLocked)lockApp();});
+};
+init();
+</script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(r => console.log('SW registered'))
+                    .catch(e => console.log('SW error:', e));
+            });
+        }
+    </script>
+</body>
+</html>
